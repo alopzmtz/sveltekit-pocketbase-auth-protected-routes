@@ -1,5 +1,6 @@
 export async function load({ locals }) {
 	return {
-		token: locals.token
+		token: locals.token,
+		user: locals.user
 	};
 }
